@@ -6,6 +6,8 @@
  * Version: 0.1
  * Author: Everaldo Matias
  * Author URI: http://everaldomatias.github.io
+ * Text Domain: acll
+ * Domain Path: /languages/
  * License: GPLv2 or later
  */
 
@@ -26,10 +28,13 @@ if ( ! class_exists( 'Automatic_Custom_Login_Logo' ) ) :
 		 */
 		function __construct() {
 
+			// Load plugin text domain.
+			add_action( 'init', array( $this, 'acll_load_plugin_textdomain' ) );
+
 			// Verify version WP.
 			global $wp_version;
 
-			if ( version_compare( $wp_version, '4.5', '>=' ) ) {
+			if ( version_compare( $wp_version, '5.5', '>=' ) ) {
 				
 				// Add Login Logo URL 
 				add_filter( 'login_headerurl', array( $this, 'acll_login_logo_url' ) );
@@ -64,6 +69,13 @@ if ( ! class_exists( 'Automatic_Custom_Login_Logo' ) ) :
 				self::$instance = new self;
 			}
 			return self::$instance;
+		}
+
+		/**
+		 * Load the plugin text domain for translation.
+		 */
+		public function acll_load_plugin_textdomain() {
+			load_plugin_textdomain( 'acll', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 		}
 
 		/**

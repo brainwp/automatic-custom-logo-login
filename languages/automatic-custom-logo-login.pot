@@ -1,0 +1,31 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Automatic Custom Logo Login\n"
+"POT-Creation-Date: 2017-05-23 08:49-0300\n"
+"PO-Revision-Date: 2017-05-23 08:46-0300\n"
+"Last-Translator: \n"
+"Language-Team: Everaldo Matias\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: automatic-custom-logo-login.php:86
+msgid "Automatic Custom Login Logo"
+msgstr ""
+
+#: automatic-custom-logo-login.php:86
+#, php-format
+msgid "works only with the version 4.5 or later of the WordPress, please %s!"
+msgstr ""
+
+#: automatic-custom-logo-login.php:86
+msgid "upgrade your installation"
+msgstr ""
