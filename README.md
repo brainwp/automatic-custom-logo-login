@@ -15,8 +15,8 @@ This plugin uses the image set in the Custom Login Panel of the administration t
 
 ## Instalation ##
 
-Upload plugin files to your plugins folder;
-Activate the plugin;
+Upload plugin files to your plugins folder;  
+Activate the plugin;  
 Thats all.
 
 ### Contribute ###
