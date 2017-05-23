@@ -13,11 +13,11 @@ WordPress plugin that changes out the default logo on the login screen with the 
 
 This plugin uses the image set in the Custom Login Panel of the administration to the logo displayed on the login page of the site.
 
-## Instalation ##
+## Installation ##
 
-Upload plugin files to your plugins folder;  
-Activate the plugin;  
-Thats all.
+- Upload plugin files to your plugins folder;  
+- Activate the plugin;  
+- Thats all.
 
 ### Contribute ###
 
