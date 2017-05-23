@@ -3,7 +3,7 @@
 **Tags:** custom logo, login page  
 **Requires at least:** 4.5  
 **Tested up to:** 4.5  
-**Stable tag:** 0.1  
+**Stable tag:** 0.1.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -28,6 +28,10 @@ You can contribute to the source code in our [GitHub](https://github.com/everald
 Create an issue in our [GitHub](https://github.com/everaldomatias/automatic-custom-logo-login/issues) page.
 
 ## Changelog ##
+
+### 0.1.1 ###
+
+- Add translate support.
 
 ### 0.1 ###
 

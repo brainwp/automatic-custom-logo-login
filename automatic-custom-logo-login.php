@@ -3,7 +3,7 @@
  * Plugin Name: Automatic Custom Login Logo
  * Plugin URI: https://github.com/everaldomatias/automatic-custom-logo-login
  * Description: WordPress plugin that changes out the default logo on the login screen with the custom logo.
- * Version: 0.1
+ * Version: 0.1.1
  * Author: Everaldo Matias
  * Author URI: http://everaldomatias.github.io
  * Text Domain: acll
@@ -34,7 +34,7 @@ if ( ! class_exists( 'Automatic_Custom_Login_Logo' ) ) :
 			// Verify version WP.
 			global $wp_version;
 
-			if ( version_compare( $wp_version, '5.5', '>=' ) ) {
+			if ( version_compare( $wp_version, '4.5', '>=' ) ) {
 				
 				// Add Login Logo URL 
 				add_filter( 'login_headerurl', array( $this, 'acll_login_logo_url' ) );
