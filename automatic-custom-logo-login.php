@@ -3,7 +3,7 @@
  * Plugin Name: Automatic Custom Login Logo
  * Plugin URI: https://github.com/everaldomatias/automatic-custom-logo-login
  * Description: WordPress plugin that changes out the default logo on the login screen with the custom logo.
- * Version: 0.1.1
+ * Version: 0.1.2
  * Author: Everaldo Matias
  * Author URI: http://everaldomatias.github.io
  * Text Domain: acll
@@ -35,6 +35,11 @@ if ( ! class_exists( 'Automatic_Custom_Login_Logo' ) ) :
 			global $wp_version;
 
 			if ( version_compare( $wp_version, '4.5', '>=' ) ) {
+
+				// Verify and add support to custom-logo.
+				if ( ! get_theme_support( 'custom-logo' ) ) {
+					add_theme_support( 'custom-logo' );
+				}
 				
 				// Add Login Logo URL 
 				add_filter( 'login_headerurl', array( $this, 'acll_login_logo_url' ) );
@@ -119,8 +124,9 @@ if ( ! class_exists( 'Automatic_Custom_Login_Logo' ) ) :
 			        body.login div#login h1 a {
 			            background: url( '<?php echo esc_url( $logo[0] ); ?>' ) center no-repeat !important;
 			            background-size: 80% !important;
-			            height: <?php echo esc_html( $logo[1] ); ?>px !important;
-			            width: <?php echo esc_html( $logo[2] ); ?>px !important;
+			            height: <?php echo esc_html( $logo[2] ); ?>px !important;
+			            max-width: 320px;
+			            width: <?php echo esc_html( $logo[1] ); ?>px !important;
 			        }
 			    </style>
 			<?php
