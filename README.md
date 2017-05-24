@@ -7,11 +7,11 @@
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
-WordPress plugin that changes out the default logo on the login screen with the custom logo.
+Customize the logo on your Wordpress login page. It's very simple.
 
 ## Description ##
 
-This plugin uses the image set in the Custom Login Panel of the administration to the logo displayed on the login page of the site.
+When activating the plugin will set the image configured in the Customizer Site Identity as the default image of the login page. It's automatic.
 
 ## Installation ##
 
