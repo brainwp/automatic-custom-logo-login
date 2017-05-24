@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Automatic Custom Login Logo
- * Plugin URI: https://github.com/everaldomatias/automatic-custom-logo-login
+ * Plugin URI: https://github.com/brasadesign/automatic-custom-logo-login
  * Description: WordPress plugin that changes out the default logo on the login screen with the custom logo.
  * Version: 0.1.2
  * Author: Everaldo Matias

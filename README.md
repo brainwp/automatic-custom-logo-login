@@ -21,11 +21,11 @@ When activating the plugin will set the image configured in the Customizer Site 
 
 ### Contribute ###
 
-You can contribute to the source code in our [GitHub](https://github.com/everaldomatias/automatic-custom-logo-login) page.
+You can contribute to the source code in our [GitHub](https://github.com/brasadesign/automatic-custom-logo-login) page.
 
 ### Need help or want to make a suggestion? ###
 
-Create an issue in our [GitHub](https://github.com/everaldomatias/automatic-custom-logo-login/issues) page.
+Create an issue in our [GitHub](https://github.com/brasadesign/automatic-custom-logo-login/issues) page.
 
 ## Changelog ##
 
