@@ -19,6 +19,10 @@ When activating the plugin will set the image configured in the Customizer Site 
 - Activate the plugin;  
 - Thats all.
 
+## Documentation ##
+
+- [Documentation on Wiki](https://github.com/brasadesign/automatic-custom-logo-login/wiki/Documentation)
+
 ### Contribute ###
 
 You can contribute to the source code in our [GitHub](https://github.com/brasadesign/automatic-custom-logo-login) page.
