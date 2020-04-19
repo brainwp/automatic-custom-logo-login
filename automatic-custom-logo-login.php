@@ -45,7 +45,7 @@ if ( ! class_exists( 'Automatic_Custom_Login_Logo' ) ) :
 				add_filter( 'login_headerurl', array( $this, 'acll_login_logo_url' ) );
 
 				// Add Login Logo Title
-				add_filter( 'login_headertitle', array( $this, 'acll_login_logo_title' ) );
+				add_filter( 'login_headertext', array( $this, 'acll_login_logo_title' ) );
 
 				// Add Custom Logo Image in Login Page
 				add_action( 'login_enqueue_scripts', array( $this, 'acll_login_logo' ) );
